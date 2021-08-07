@@ -37,3 +37,13 @@ h3 {
 .min-vw-25 {
     min-width: 25vw;
 }
+
+@media (max-width: 600px) {
+    .lang {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
