@@ -1,0 +1,39 @@
+:root {
+    --dark-turquoise-light: #01a99b9d;
+    --dark-turquoise: #01a99c;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.border-dark-turquoise {
+    border-color: var(--dark-turquoise) !important;
+}
+
+.border-6 {
+    border-width: 10px !important;
+}
+
+h1,h3,h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+  font-weight: 700;  
+}
+
+.bg-dark-turquoise-light {
+    background-color: var(--dark-turquoise-light);
+}
+
+.bg-dark-turquoise {
+    background-color: var(--dark-turquoise);
+}
+
+.half-circle {
+    border-top-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+}
+
+.min-vw-25 {
+    min-width: 25vw;
+}
